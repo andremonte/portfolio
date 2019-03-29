@@ -1,0 +1,98 @@
+.imageBG {
+  background-image: url("./images/developer.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hello {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  color: #cc005f;
+}
+
+.andreMonte {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 55px;
+  color: #110729;
+}
+
+.programmer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  color: #110729;
+}
+
+a:link { /* unvisited link */
+  color: #cc005f;
+}
+
+a:visited { /* visited link */
+  color: #0056B3;
+}
+
+a:hover {
+  color: #F76904; /* mouse over link */
+  text-decoration: none;
+}
+
+a:active { /* selected link */
+  /*color: blue;*/
+  color: #F76904;
+}
+
+.title{
+  color:#BD6018;
+  font-size: 20px;
+}
+
+.text {
+ font-family: 'Montserrat', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 27px;
+ color: #808080;
+ text-align: justify;
+}
+
+.myPicture {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.grey-container {
+  background-color: #F8F8F8;
+}
+
+.verticalLine {
+ height: 800px;
+}
+
+.icones {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

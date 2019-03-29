@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+      <!-- If IE use the latest rendering engine -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Personal and Professional Portfolio website">
+  <meta name="keywords" content="André Machado do Monte, Andre Machado do Monte, Andre Monte, portfolio, computer programmer, web developer, website">
+  <meta name="author" content="Andre Machado do Monte">
+
+  <title>Andre Monte</title>
+
+  <!-- JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./functions_index.js"></script>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./main.css">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700i,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+
+  <!-- FONTS AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+
+</head>
+
+<body> 
+ <!----------------------------------- HOME PAGE - BACKGROUND IMAGE ----------------------------------->
+
+  <section id="one">
+    <div class="imageBG p-0">
+      <div class="bg-overlay bg-info">
+        <div class="container-fluid py-5 bg-primary">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h5 class="text-right" style="font-size: 15px; padding-right: 37px;"><a
+                  href="./curriculum.html"><strong>View/download My Resume!</strong></a></h5><br>
+              <h3 class="text-center hello py-5">Hello, World!</h3>
+              <h1 class="text-center andreMonte py-4">I’m Andre Monte.</h1><br>
+              <h3 class="text-center programmer">|  <em>Computer programmer</em>  |</h3>
+  
+              <div class="text-center">
+                <a href="#two" class="my-4 btn btn-outline-primary">More about me</a><br>
+              </div>
+              <div class="icones text-center bg-danger">
+                <a href="https://www.linkedin.com/in/andre-monte" class="fab fa-linkedin-in fa-2x mx-1"></a>
+                <a href="https://github.com/andremonte" class="fab fa-github fa-2x mx-1"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------- HOME PAGE - BACKGROUND IMAGE ----------------------------------->
+
+
+  <!----------------------------------- ABOUT ME ----------------------------------->
+
+  <section id="two">
+    <div class="container-fluid text-center py-5">
+      <h5 id="aboutMe" class="title pt-4 pb-2"><strong>About me</strong></h5>
+      <h2 class="andreMonte">Let me talk a little bit about me.</h2><br>
+      <div class="row justify-content-center">
+        <div class="col-xl-1 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+          <img class="myPicture" src="./images/AndreMonte.JPG" alt="Andre Monte picture" title="MySelf">
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-10 col-sm-10 col-xs-12 justify-content-center text-justify">
+          <h5 class="text" style="font-family: 'Old Standard TT', serif; font-size: 17px;">
+            My name is Andre Monte. I am a recent college graduate with a degree in computer programming. 
+            This 2-year diploma program prepared me with the skills and knowledge to begin my carrer as a programmer.
+            During this jorney I gained the following skills:
+          </h5>
+          <h5 id="readMore" class="text" style="display: none; font-family: 'Old Standard TT', serif; font-size: 17px;">
+            <li>Computer programming</li>
+            <li>Operating systems</li>
+            <li>Database and web technology</li>
+            <li>Data communication</li>
+            <li>Security</li>
+            <li>Advanced programming languages</li>
+            <li>Database system design and maintenance</li>
+            <li>Internet client and server-side development</li>
+            <li>Debugging</li>
+            Lawyer, Customer Service and programmer.
+          </h5>
+          <button id="ler" class="btn btn-outline-primary btn-sm" onclick="readMore();">read more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------- ABOUT ME ----------------------------------->
+
+
+
+  <!----------------------------------- MY EXPERIENCE ----------------------------------->
+  
+  <section id="three">
+    <div class="grey-container container-fluid text-center py-5">
+      <h5 id="aboutMe" class="title pt-4 pb-2"><strong>Work experience</strong></h5>
+      <h2 class="andreMonte">Some of my accomplishments.</h2><br>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hello text-right" style="color: #110729;">
+          <h4>Teste_01</h4>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center pt-3 col-4">
+          <img src="./images/VerticalLine.png" class="verticalLine" alt="line of time">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hello text-left" style="color: #110729;">
+          <h5>Teste_03</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------- MY EXPERIENCE ----------------------------------->
+
+
+
+  <!----------------------------------- CONTACT ME ----------------------------------->
+  
+  <section id="four">
+    <div class="container">
+        <div class="jumbotron">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet amet ut cumque animi unde tempora totam, sequi aperiam, explicabo reprehenderit praesentium culpa alias illo harum eligendi error consequuntur beatae. Quo.</p>
+        </div>
+    </div>
+  </section>
+  <div class="parent">
+    <div class="child">
+    </div>
+  </div>
+  <!----------------------------------- CONTACT ME ----------------------------------->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html> 
